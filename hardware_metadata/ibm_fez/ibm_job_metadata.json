@@ -1,0 +1,10 @@
+{
+  "training_job_id": "d5u9tkkbmr9c739o14kg",
+  "testing_job_id": "d5u9tl4cqoec73dkmva0",
+  "backend_name": "ibm_fez",
+  "backend_version": "1.3.30",
+  "shots": 10000,
+  "num_training_circuits": 66,
+  "num_testing_circuits": 48,
+  "num_qubits": 156
+}
