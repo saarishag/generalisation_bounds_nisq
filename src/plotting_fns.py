@@ -453,7 +453,7 @@ def ibm_plots(p_local_list_upper, noisy_margin_upper, upper_bound_arr, p_local_l
 
     axes[1].plot(p_local_list_lower, noisy_margin_lower, 's-', linewidth=2, markersize=6, label = 'Empirical Margin', color = "blue")
     axes[1].plot(p_local_list_lower, lower_bound_arr,'o--', linewidth=2, markersize=6, label = "Lower Bound", color = "black")
-    axes[1].axhline(y=ibm_margin,color = 'green', linestyle='--', linewidth = 2, label = 'ibm_strasbourg')
+    axes[1].axhline(y=ibm_margin,color = 'green', linestyle='--', linewidth = 2, label = 'ibm_fez')
     axes[1].grid(True, linestyle=":", linewidth = 0.5)
     axes[1].tick_params(labelsize=10)
 

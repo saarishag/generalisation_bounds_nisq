@@ -290,7 +290,7 @@ def ideal_kernel_BC():
 
 def ibm_results():
     """Precomputed noisy margin computed from hardware"""
-    IBM_margin = 0.014923413361799495
+    IBM_margin = 0.009068882631516556
 
     return IBM_margin
 

@@ -68,7 +68,7 @@ fm = create_iqp_feature_map(n, num_features, reps=n_layers)
 
 # Get a specific backend or the least busy
 service = QiskitRuntimeService()
-backend = service.backend("ibm_strasbourg") 
+backend = service.backend("ibm_fez") 
 
 # Running on a real hardware
 sampler = Sampler(mode=backend)
