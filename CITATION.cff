@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software 
+authors:
+- family-names: "Govender"
+  given-names: "Saarisha"
+  orcid: "https://orcid.org/0000-0002-1065-9517"
+title: "Margin-Based Generalisation Measures for Quantum Kernel Methods on NISQ Devices"
+year: 2025
+repository-code: "https://github.com/saarishag/generalisation_bounds_nisq"
