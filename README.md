@@ -9,7 +9,7 @@ This repository holds the code for the three independent but connected numerical
 *(This script can be used to reproduce Figure 10 of the paper.)*
 
 `margin_bounds.py` - This script verifies the upper and lower margin bounds derived in the paper. It compares the theoretical bound value of the margin affected by (local depolarising) noise with the actual margin value. 
-*(This script can be used to reproduce Figures 11 and 12 of the paper.)*
+*(This script can be used to reproduce Figures 11 and 12 of the paper.)* 
 
 `C_region_test.py` - This script determines a feasible range for the acceptable values for the regularisation parameter that must be used in `margin_bounds.py` for valid upper bounds.
 
