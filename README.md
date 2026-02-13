@@ -54,7 +54,7 @@ The following dependencies must be installed to run these scripts:
   - scipy
 - An IBM Quantum Account must be created to run the `ibm_*` scripts
 
-## Running the Code:
+## Running the Code
 The three independent simulations with their related code scripts include:
 - exploring the link between margins and generalisation using corrupted labels
   - `gen_margin_definitions.py`
@@ -71,3 +71,7 @@ The three independent simulations with their related code scripts include:
 3. From the _root directory of the repository_, run the script for the desired numerical experiment from the _experiments_ folder as a Python module
    - e.g. python -m experiments.local_vs_global
    - Note: The scripts in the _src_ and _results_ folders are supporting scripts and must not be run alone
+  
+## Acknowledgements
+This research was supported by the National Research Foundation (NRF) of South Africa. The authors would like to acknowledge the National Institute for Theoretical and Computational Sciences (NITheCS). We thank the University of KwaZulu-Natal (UKZN) for the use of the HEP1 machine. We acknowledge the South African Quantum Technology Initiative (SA QuTI) and IBM Quantum services for this work. The views expressed are those of the authors, and do not reflect the official policy or position of IBM or the IBM Quantum team.
+
